@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <!--Internal-->
+    <link rel ="stylesheet" href="/css/main.css">
+    <title>The Library</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav>
+            <div class="logo">
+                <h1>The Requiem Botanicum</h1>
+            </div>
+            <div class="button-row">
+                <button class="button home">Home</button>
+                <button class="button about-us">About us</button>
+                <button class="active button the-library">The Library</button>
+                <button class="button contact-us">Contact Us</button>
+            </div>
+        </nav>
+
+        <form>
+            <div class="image-cover">
+                <div class="image">
+                    <div class="circle">
+                        <div class="logo-in-image">
+                            <img src="/assets/icon.svg">
+                                <div class="image-inside"></div>
+                        </div>
+                    </div>
+                    <div class="text-in-image">
+                        <h3 class="text-in-image2">The Botanical Library</h3>
+                    </div>
+                    <div class="line"></div>
+                    <div class="bottom-text"><h3 class="add-disc">Add Your Discovery Here</h3></div>
+                </div>
+            </div>
+            <div class="text">
+                <h3>Have you discovered something new? Fill Out the form from bellow and we will review your findings!</h3>
+            </div>
+            <input class="input-el" type="text" placeholder="Your Name" required>
+        <input class="input-el" type="text" placeholder="Your Surname"required>
+        <input class="input-el" type="email" placeholder="Your Email Adress"required>
+        <input class="input-el" type="password" placeholder="Choose a password"required>
+
+
+        <select class="input-el" required>
+            <option>Herbs</option>
+            <option>Creepers</option>
+            <option>Trees</option>
+            <option>Climbers</option>
+            <option>Creepers</option>
+            <option selected="selected">Select Object</option>
+        </select>
+
+        <textarea class="input-el" placeholder="leave a comment!" rows="10"></textarea>
+
+        <button class="input-el submit-your-data" type="submit">Submit your data for review</button>
+
+
+
+
+        </form>
+
+        <footer>
+            <h3>Copyright 2023 - The Requiem Botanicum</h3>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,172 @@
+#container-fluid{
+    flex: auto;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #2f2f2f;
+    color: white;
+    margin-top: 4px;
+}
+
+nav h1{
+    font-family: 'Playfair Display', serif;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+
+.active{
+    font-weight: 600;
+}
+
+.button{
+    border: none;
+    background: none;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.button-row{
+    float: right;
+    padding-right: 300px;
+    padding-top: 40px;
+}
+
+.home{
+    margin-right: 50px;
+}
+
+.about-us{
+    margin-right: 50px;
+}
+
+.the-library{
+    margin-right: 50px;
+}
+
+
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+form{
+    outline: #a3a3a3;
+    outline-style:auto;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.input-el{
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.image-cover{
+    width: 90%;
+    height: 200px;
+    background-color: #2f2f2f;
+    border-radius: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: small;
+    font-style: italic;
+}
+
+.text-in-image{
+    opacity: 1 !important;
+    color: white;
+}
+
+.logo-in-image{
+    height: 20px;
+    width: 20px;
+    margin-left: 160px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+.text-in-image2{
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+}
+
+.line{
+    width: 10%;
+    height: 2px;
+    background-color: white;
+    margin-left: 160px;
+}
+
+.submit-your-data{
+    font-family: 'Playfair Display', serif;
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.submit-your-data:hover{
+    background-color: white;
+    color: black;
+    outline-style:auto;
+    outline-color: #a3a3a3;
+    outline-width: 2px;
+}
+
+footer{
+    margin-top: 10px;
+    padding-top: 35px;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-weight: 300;
+    background-color: #2f2f2f;
+    text-align: center;
+}
+
+.add-disc{
+    color: white;
+    font-style: normal;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    padding-left: 80px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/header.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
